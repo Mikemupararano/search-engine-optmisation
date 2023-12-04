@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
 }
-/*Created color variables for easy of maintainance*/
+/*Created color variables for easy of maintenance*/
 :root{
     --color1:#d9dcd6;
     --color2:#2a607c;
@@ -201,8 +201,11 @@ p {
     background-color: var(--color5);
     color: var(--color3);
 }
-
-.search-engine-optimization img {
+/*Replaced all next 6 lines with 2 lines of code under id of optimizer*/
+#optimizer {
+    max-height: 200px; 
+}
+/*.search-engine-optimization img {
     max-height: 200px;
 }
 
@@ -212,7 +215,7 @@ p {
 
 .social-media-marketing img {
     max-height: 200px;
-}
+}*/
 
 .search-engine-optimization h2 {
     margin-bottom: 20px;
