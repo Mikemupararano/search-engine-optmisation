@@ -175,6 +175,15 @@ p {
     max-width: 150px;
 }
 */
+.less-code {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: var(--color5);
+    color: var(--color3); 
+}
+/* The next three blocks of css codes are repeats (margin, padding, height, font-family ,color & background color) and I will replace them with one block of code
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -201,6 +210,7 @@ p {
     background-color: var(--color5);
     color: var(--color3);
 }
+*/
 /*Replaced all next 6 lines with 2 lines of code under id of optimizer*/
 #optimizer {
     max-height: 200px; 
