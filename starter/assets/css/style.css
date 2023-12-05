@@ -10,6 +10,7 @@
     --color3: #ffffff;
     --color4: #2589bd;
     --color5: #0072bb;
+    --color6:#8B004B;
 
 }
 /*Targeting .benefits div to fit on screens for small devices without its height getting overly stretched*/ 
@@ -28,9 +29,9 @@ text-overflow: none;
    };
 }
 
-
+/*Changed background color of body from #2a607c to #8B004B for better contrast*/
 body {
-    background-color: var(--color1);
+    background-color: var(--color6);
 }
 
 .header {
@@ -65,7 +66,10 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* Added background color to headings on hover*/
+.header div ul li:hover {
+    background-color: var(--color6);
+}
 a {
     color: var(--color3);
     text-decoration: none;
@@ -151,11 +155,11 @@ p {
 }*/
 
 
-/* Replace the next two blocks of css with 3 lines of code*/
+/* Replace the next two blocks of css with 3 lines of code* & reduced image height from 150 to 125*/
 .image {
     display: block;
     margin: 10px auto;
-    max-width: 150px;   
+    max-width: 125px;   
 }
 /*.benefit-lead img {
     display: block;
@@ -252,7 +256,15 @@ p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
-.footer h2 {
+/*Amended color of h2 and p text in footer*/
+.footer h2, p {
     font-size: 20px;
+    color:#d9dcd6;
+}
+.social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 36px;
 }
